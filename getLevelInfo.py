@@ -33,7 +33,7 @@ def levelratedata(level: gd.Level):
         else:
             returndata += "\nFeatured: False"
         if level.is_epic() == True:
-            returndata += f"\nEpic: TrueScore (featured score): {checkSCORE(level)}"
+            returndata += f"\nEpic: True\nScore (featured score): {checkSCORE(level)}"
         else:
             returndata += "\nEpic: False"
         if level.is_demon() == True:
